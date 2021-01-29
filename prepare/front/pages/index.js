@@ -1,10 +1,10 @@
 import AppLayout from '../components/AppLayout'
+import Profile from 'pro'
 
 const Home = () => {
     return(
-        
         <AppLayout> 
-            <div> Hello , Next</div> 
+            <Profile/>
         </AppLayout>
     );
 }

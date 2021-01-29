@@ -35,11 +35,9 @@ const signup = () => {
         if(password !== passwordCheck){
             return setPasswordError(true)
         }
-
         if(!term){
-            return setTermError(true); 
-        }
-    
+           return setTermError(true); 
+        }    
         console.log(id,nickname,password);
     }, []);  
     
